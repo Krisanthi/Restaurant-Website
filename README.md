@@ -1,46 +1,31 @@
-# 🍽️ Thaara Restaurant | Full-Stack Front-End Experience
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/YourUsername/thaara-restaurant/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/YourUsername/thaara-restaurant/pulls)
+# 🍽️ Thaara Restaurant | Web Technology Coursework
 
-**Thaara** is a premium, responsive web application designed for a modern dining experience. From a visually stunning menu to a seamless checkout and delivery flow, this project demonstrates a complete e-commerce lifecycle using pure web technologies.
-
-[Explore the Live Demo](#) ---
-
-## 🌟 Key Features
-
-* **Dynamic Menu Exploration:** A curated list of dishes with category filtering (Appetizers, Mains, Desserts).
-* **Persistent Shopping Cart:** Built with **Vanilla JavaScript** and **LocalStorage** to ensure users don't lose their selection on refresh.
-* **Intuitive Checkout Flow:** A multi-step process including:
-    * **Cart Review:** Final quantity adjustments.
-    * **Secure Payment UI:** Mock credit card validation and processing.
-    * **Delivery Integration:** Address input and order confirmation.
-* **Responsive Architecture:** Hand-crafted CSS ensuring a "mobile-first" luxury experience.
+**Module:** CM1605 Web Technology 
 
 ---
 
-## 🛠️ Tech Stack
+🌟 Project Concept
+Thaara Restaurant is a high-fidelity web application prototype developed for the CM1605 module. The platform provides a seamless digital dining experience, encapsulated by the brand philosophy: "From our hearts, to your home".
++1
 
-| Component | Technology |
-| :--- | :--- |
-| **Structure** | HTML5 (Semantic & Accessible) |
-| **Styling** | CSS3 (Flexbox, Grid, Custom Animations) |
-| **Logic** | Vanilla JavaScript (ES6+) |
-| **Icons** | FontAwesome / Boxicons |
-| **Storage** | Browser LocalStorage |
+✨ Functional Features
+Interactive Landing Page: Features a hero section "Dive into Delights of Delectable Foods" with a prominent ORDER NOW call-to-action.
++1
 
----
+Navigation & Search: Includes a refined header with links to HOME, CUISINE SELECTION, CONTACT US, and OFFER, alongside an integrated search bar.
 
-## 📂 Project Structure
+Categorized Menu: Structured browsing across Appetizer, Rice, Noodles, Soup, and Dessert categories.
 
-```text
-├── index.html          # Brand Story & Hero Section
-├── menu.html           # Interactive Menu & Category Filters
-├── cart.html           # Cart Logic & Order Summary
-├── checkout.html       # Payment Gateway & Delivery Form
-├── success.html        # Order Confirmation & Tracking
-├── assets/
-│   ├── css/            # Global & Component Styles
-│   ├── js/             # Cart, Payment, and App Logic
-│   └── img/            # High-Resolution Culinary Assets
-└── README.md
+Dynamic Cart System: A persistent MY CART indicator in the header that displays real-time price totals in Rs.
++1
+
+Order Workflow: Every menu item includes a detailed description and an Add to cart button.
+
+🛠️ Tech Stack
+HTML5: Used for semantic layout including the header, main content grids, and footer.
++1
+
+CSS3: Implemented for the dark-themed professional UI and responsive category cards.
+
+JavaScript: Powering the "Add to Cart" functionality and real-time cart updates.
