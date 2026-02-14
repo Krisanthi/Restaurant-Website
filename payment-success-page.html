@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - Thaara Restaurant</title>
+    <link rel="stylesheet" href="payment-success-style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with logo and navigation -->
+    <header id="top">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Restaurant Logo">
+                <div id="restaurant-name">Thaara Restaurant</div>
+            </div>
+            
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main page.html">HOME</a></li>
+                    <li><a href="order page.html">MENU</a></li>
+                    <li><a href="main page.html">OFFERS</a></li>
+                    <li><a href="#contact-us">CONTACT</a></li>
+                    <li class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="section-heading">
+        <h2>Order Confirmation</h2>
+    </div>
+    
+    <div class="container">
+        <div class="progress-tracker">
+            <div class="progress-step completed">
+                <div class="step-number">1</div>
+                <div class="step-title">Shopping Cart</div>
+            </div>
+            <div class="progress-step completed">
+                <div class="step-number">2</div>
+                <div class="step-title">Delivery Details</div>
+            </div>
+            <div class="progress-step completed">
+                <div class="step-number">3</div>
+                <div class="step-title">Payment</div>
+            </div>
+            <div class="progress-step completed active">
+                <div class="step-number"><i class="fas fa-check"></i></div>
+                <div class="step-title">Confirmation</div>
+            </div>
+        </div>
+        
+        <div class="success-container">
+            <div class="success-icon animated">
+                <img src="images/tick.png" alt="Success">
+            </div>
+            
+            <h2 class="success-title">Payment Successful!</h2>
+            <p class="success-message">Your order has been received. We're preparing your meals now.</p>
+            
+            <div class="receipt-number animated">
+                Order #: RS-2025031712
+            </div>
+            
+            <div class="countdown">
+                Estimated delivery time: <span class="minutes">45</span> minutes
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-step step-complete">
+                    <div class="step-icon">1</div>
+                    <div class="step-title">ORDER PLACED</div>
+                </div>
+                <div class="timeline-step step-next">
+                    <div class="step-icon">2</div>
+                    <div class="step-title">PREPARING</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-icon">3</div>
+                    <div class="step-title">OUT FOR DELIVERY</div>
+                </div>
+            </div>
+            
+            <div class="order-details">
+                <h3>Order Total</h3>
+                <div class="total-display" id="display-total">Loading...</div>
+            </div>
+            
+            <div class="receipt-instructions">
+                <p>A confirmation has been sent to your email. Your driver will contact you when they're on the way.</p>
+                <p>Thank you for choosing Thaara Restaurant!</p>
+            </div>
+            
+            <div class="action-buttons">
+                <a href="main page.html" class="btn">Return Home</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="contact-us">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Thaara Restaurant</h3>
+                <p>A Taste of Excellence Since 2015</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><a href="mailto:thaararestaurant@gmail.com"><i class="fas fa-envelope"></i> thaararestaurant@gmail.com</a></p>
+                <p><a href="tel:+94112525345"><i class="fas fa-phone-alt"></i> +9411 2525345</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> No:112, New David Street, Colombo-11</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ThaaraRestaurant"aria-label="Facebook Page"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ThaaraRestaurant"aria-label="Instagram Page"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/ThaaraRestaurant" aria-label="Twitter Page"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="far fa-copyright"></i> 2025 Thaara Restaurant | All Rights Reserved</p>
+        </div>  
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <script src="payment-success-script.js"></script>
+</body>
+</html>

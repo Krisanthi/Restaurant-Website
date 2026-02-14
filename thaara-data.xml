@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thaara-data>
+  <!-- Special Offers -->
+  <special-offers>
+    <offer id="family-offer1">
+      <title>Family Offer 1</title>
+      <details>3 x Egg Fried Rice + 2 x Smoked Wings + 3 x Reg Drinks</details>
+      <price>2800.00</price>
+      <image>images/family1.jpg</image>
+    </offer>
+    <offer id="family-offer2">
+      <title>Family Offer 2</title>
+      <details>3 x Chicken Fried Rice + 2 x Smoked Wings + 3 x Reg Drinks</details>
+      <price>3800.00</price>
+      <image>images/family2.jpg</image>
+    </offer>
+    <offer id="dessert-offer">
+      <title>Dessert Offer</title>
+      <details>3 x Chocolate Cake + 2 x Strawberry Cheesecake (slices)</details>
+      <price>3000.00</price>
+      <img>images/dessertoffer.jpg</img>
+    </offer>
+  </special-offers>
+  
+  <!-- Promotions -->
+  <promotions>
+    <promotion id="valentine-offer">
+      <title>Valentine's Week</title>
+      <details>1 x Heart-shaped large pizza + 2 x Strawberry cheesecake + 2 x Reg drinks</details>
+      <price>2800.00</price>
+      <image>images/valentine.jpg</image>
+    </promotion>
+    <promotion id="no-cook">
+      <title>No Cook February!</title>
+      <details>1 x Chicken biriyani + 1 x Smoked wings + 1 x Reg drink</details>
+      <price>1450.00</price>
+      <image>images/no-cook1.jpg</image>
+    </promotion>
+  </promotions>
+  
+  <!-- Menu Categories -->
+  <menu-categories>
+    <category id="appetizer">
+      <n>Appetizer</n>
+      <items>
+        <item id="chicken-spring-roll" type="non-veg" price="120.00">
+          <title>Chicken Spring Roll</title>
+          <description>Stuffed with chicken, potato, and beans.</description>
+          <image>images/chickenroll.jpg</image>
+        </item>
+        <item id="signature-wings" type="non-veg" price="700.00">
+          <title>Signature Wings</title>
+          <description>Hand tossed in tangy wing sauce with ranch.</description>
+          <image>images/signaturewings.jpg</image>
+        </item>
+        <item id="smoked-wings" type="non-veg" price="650.00">
+          <title>Smoked Wings</title>
+          <description>Bone in wings slow smoked in-house over pecan wood.</description>
+          <image>images/smokedwings.jpg</image>
+        </item>
+        <item id="onion-rings" type="veg" price="390.00">
+          <title>Onion Rings</title>
+          <description>Fried onions served with cool ranch.</description>
+          <image>images/onionrings.jpeg</image>
+        </item>
+        <item id="garlic-bread" type="veg" price="390.00">
+          <title>Garlic Bread</title>
+          <description>Soft and crunchy garlic bread.</description>
+          <image>images/garlicbread.jpeg</image>
+        </item>
+        <item id="classic-fries" type="veg" price="450.00">
+          <title>Classic Fries</title>
+          <description>Fries served with ketchup.</description>
+          <image>images/fries.jpg</image>
+        </item>
+      </items>
+    </category>
+    
+    <category id="rice">
+      <n>Rice</n>
+      <items>
+        <item id="eggfried-rice" type="non-veg" price="520.00">
+          <title>Egg Fried Rice</title>
+          <description>Stir-fried rice with eggs, soy sauce.</description>
+          <image>images/eggfriedrice.jpg</image>
+        </item>
+        <item id="veggiefried-rice" type="veg" price="390.00">
+          <title>Veggie Fried Rice</title>
+          <description>Stir-fried rice mixed with vegetables, seasoned.</description>
+          <image>images/veggiefriedrice.jpg</image>
+        </item>
+        <item id="chickenfried-rice" type="non-veg" price="920.00">
+          <title>Chicken Fried Rice</title>
+          <description>Stir-fried rice with chicken, eggs, soy sauce.</description>
+          <image>images/chickenfriedrice.jpg</image>
+        </item>
+      </items>
+    </category>
+    
+    <category id="dessert">
+      <n>Dessert</n>
+      <items>
+        <item id="kulfi-stick" type="veg" price="290.00">
+          <title>Kulfi Stick</title>
+          <description>1 delicious kulfi stick with pistachio.</description>
+          <image>images/kulfistick.jpg</image>
+        </item>
+        <item id="strawberry-cheesecake" type="veg" price="390.00">
+          <title>Strawberry Cheesecake</title>
+          <description>Cheesecake with strawberry pieces.</description>
+          <image>images/strawberrycheesecake.jpg</image>
+        </item>
+        <item id="chocolatecake" type="veg" price="690.00">
+          <title>Chocolate Cake</title>
+          <description>1 piece of chocolate cake.</description>
+          <image>images/chocolatecake.jpg</image>
+        </item>
+        <item id="blueberry-cake" type="veg" price="890.00">
+          <title>Blueberry Cake</title>
+          <description>1 piece of blueberry cake.</description>
+          <image>images/blueberrycake.jpg</image>
+        </item>
+        <item id="brownie" type="veg" price="350.00">
+          <title>Brownie</title>
+          <description>1 chocolate or selected flavour brownie.</description>
+          <image>images/brownie.jpg</image>
+        </item>
+        <item id="cinnamon-roll" type="veg" price="1200.00">
+          <title>Cinnamon Roll</title>
+          <description>1 delicious cinnamon roll.</description>
+          <image>images/cinnamonroll.jpg</image>
+        </item>
+      </items>
+    </category>
+  </menu-categories>
+</thaara-data>
