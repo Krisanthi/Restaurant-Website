@@ -7,7 +7,7 @@
 
  Project Concept
 Thaara Restaurant is a high-fidelity web application prototype developed for the CM1605 module. The platform provides a seamless digital dining experience, encapsulated by the brand philosophy: "From our hearts, to your home".
-+1
+
 
  Functional Features
 Interactive Landing Page: Features a hero section "Dive into Delights of Delectable Foods" with a prominent ORDER NOW call-to-action.
