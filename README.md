@@ -1,31 +1,53 @@
 
-# Thaara Restaurant | Web Technology Coursework
+# Thaara Restaurant: E-Commerce Web Application
 
-**Module:** CM1605 Web Technology 
+<div align="center">
+  
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
----
+</div>
 
- Project Concept
-Thaara Restaurant is a high-fidelity web application prototype developed for the CM1605 module. The platform provides a seamless digital dining experience, encapsulated by the brand philosophy: "From our hearts, to your home".
+Thaara Restaurant is a front-end web application prototype designed to provide a seamless digital dining and ordering experience. Built with a focus on responsive design and interactive user interfaces, the platform allows users to browse categorized menus, search for specific dishes, and manage a dynamic shopping cart.
 
+## Technical Highlights
 
- Functional Features
-Interactive Landing Page: Features a hero section "Dive into Delights of Delectable Foods" with a prominent ORDER NOW call-to-action.
+* **Dynamic Cart System:** Features a persistent cart indicator that tracks selected items and calculates real-time price totals utilizing vanilla JavaScript.
+* **Categorized Menu Interface:** Implements structured data presentation across multiple food categories (Appetizer, Rice, Noodles, Soup, and Dessert) using CSS for responsive layouts.
+* **Interactive UI Components:** Includes a fully functional search bar, detailed product descriptions, and optimized call-to-action workflows for the ordering process.
 
+## System Architecture
 
-Navigation & Search: Includes a refined header with links to HOME, CUISINE SELECTION, CONTACT US, and OFFER, alongside an integrated search bar.
+The application is structured as a client-side interface focusing on DOM manipulation and state management.
 
-Categorized Menu: Structured browsing across Appetizer, Rice, Noodles, Soup, and Dessert categories.
+**1. Semantic Structure**
+* Utilizes HTML5 to create a logical, accessible document structure including a refined navigation header, main content grids, and a comprehensive footer.
 
-Dynamic Cart System: A persistent MY CART indicator in the header that displays real-time price totals in Rs.
+**2. Styling and Theming**
+* Employs CSS3 to construct a professional, dark-themed user interface. 
+* Features responsive category cards that adapt seamlessly to different viewport sizes.
 
+**3. State Management**
+* Relies on vanilla JavaScript to power the "Add to Cart" logic.
+* Dynamically updates the DOM to reflect real-time pricing and cart inventory without requiring page reloads.
 
-Order Workflow: Every menu item includes a detailed description and an Add to cart button.
+## Tech Stack
 
- Tech Stack
-HTML5: Used for semantic layout including the header, main content grids, and footer.
+**Frontend**
+* **Markup:** HTML5
+* **Styling:** CSS3
+* **Logic:** Vanilla JavaScript
 
+## Local Setup & Execution
 
-CSS3: Implemented for the dark-themed professional UI and responsive category cards.
+Since this is a vanilla frontend application, no complex build tools or package managers are required.
 
-JavaScript: Powering the "Add to Cart" functionality and real-time cart updates.
+**1. Clone the Repository**
+```bash
+git clone [https://github.com/yourusername/thaara-restaurant.git](https://github.com/yourusername/thaara-restaurant.git)
+cd thaara-restaurant
+```
+
+**2. Run Locally**
+Open the `index.html` file directly in any modern web browser (Chrome, Firefox, Safari) to interact with the application.
